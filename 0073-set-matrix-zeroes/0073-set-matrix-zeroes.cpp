@@ -2,9 +2,8 @@ class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
         int n=matrix.size();
-        if(n==0) return;
         int m=matrix[0].size();
-        if(m==0) return;
+
         vector<bool>r(n,false),c(m,false);
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
